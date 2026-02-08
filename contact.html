@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nerdherder690 | Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nerdherder690 | Contact</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; }
     body { background: radial-gradient(circle at top, #1a0033, #000000 70%); color: #eaffff; min-height: 100vh; display: flex; justify-content: center; align-items: center; }
@@ -16,13 +16,11 @@
     header nav a:hover { color: #ff4dff; }
     section { margin-bottom: 30px; }
     section h2 { font-size: 1.6rem; margin-bottom: 10px; border-bottom: 2px solid #00ffff; display: inline-block; padding-bottom: 4px; color: #00ffff; text-shadow: 0 0 6px rgba(0, 255, 255, 0.8); }
-    .about p { line-height: 1.6; color: #e0e0e0; }
-    .games ul { list-style: none; margin-top: 10px; }
-    .games li { background: rgba(0, 255, 255, 0.08); padding: 10px 14px; margin-bottom: 8px; border-radius: 6px; border-left: 3px solid #ff4dff; }
-    .links a { display: inline-block; margin-right: 12px; margin-top: 10px; text-decoration: none; color: #000000; background: linear-gradient(135deg, #00ffff, #ff4dff); padding: 10px 18px; border-radius: 999px; font-weight: bold; box-shadow: 0 0 12px rgba(0, 255, 255, 0.8); transition: transform 0.15s ease-out, box-shadow 0.15s ease-out; position: relative; overflow: hidden; }
-    .links a:hover { transform: translateY(-3px) scale(1.08); box-shadow: 0 0 25px rgba(255, 77, 255, 1), 0 0 50px rgba(0, 255, 255, 0.8); }
-    .links a::after { content: ""; position: absolute; inset: 0; background: radial-gradient(circle, rgba(255,255,255,0.6), transparent 60%); opacity: 0; transition: opacity 0.15s; }
-    .links a:hover::after { opacity: 0.35; animation: clickPulse 0.15s linear; }
+    .contact-info p { line-height: 1.6; color: #e0e0e0; margin-bottom: 10px; }
+    .contact-links a { display: inline-block; margin-right: 12px; margin-top: 10px; text-decoration: none; color: #000000; background: linear-gradient(135deg, #00ffff, #ff4dff); padding: 10px 18px; border-radius: 999px; font-weight: bold; box-shadow: 0 0 12px rgba(0, 255, 255, 0.8); transition: transform 0.15s ease-out, box-shadow 0.15s ease-out; position: relative; overflow: hidden; }
+    .contact-links a:hover { transform: translateY(-3px) scale(1.08); box-shadow: 0 0 25px rgba(255, 77, 255, 1), 0 0 50px rgba(0, 255, 255, 0.8); }
+    .contact-links a::after { content: ""; position: absolute; inset: 0; background: radial-gradient(circle, rgba(255,255,255,0.6), transparent 60%); opacity: 0; transition: opacity 0.15s; }
+    .contact-links a:hover::after { opacity: 0.35; animation: clickPulse 0.15s linear; }
     footer { text-align: center; margin-top: 20px; font-size: 0.9rem; color: #8affff; text-shadow: 0 0 6px rgba(0, 255, 255, 0.6); }
     @keyframes neonFlicker { 0% { opacity: 1; text-shadow: 0 0 6px #00ffff, 0 0 20px rgba(0, 255, 255, 0.8); } 45% { opacity: 0.85; text-shadow: 0 0 4px #00ffff, 0 0 10px rgba(0, 255, 255, 0.6); } 50% { opacity: 0.6; text-shadow: none; } 55% { opacity: 0.9; text-shadow: 0 0 8px #00ffff, 0 0 25px rgba(0, 255, 255, 0.9); } 100% { opacity: 1; text-shadow: 0 0 10px #00ffff, 0 0 30px rgba(0, 255, 255, 1); } }
     @keyframes clickPulse { 0% { transform: scale(0.9); } 100% { transform: scale(1.1); } }
@@ -31,36 +29,24 @@
 <body>
   <div class="container">
     <header>
-      <h1>Nerdherder690</h1>
-      <p>Video Gamer | Digital Adventurer | Night Grinder</p>
+      <h1>Contact Nerdherder690</h1>
+      <p>Get in touch or follow me online</p>
       <nav>
         <a href="index.html">Home</a> |
         <a href="about.html">About Me</a> |
-		<a href="contact.html">Contact Us</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </header>
 
-    <section class="about">
-      <h2>A Little About Me</h2>
-      <p>
-        Hey, I'm <strong>Nerdherder690</strong> — a passionate gamer who loves
-        competitive play, exploring open worlds, and mastering tough mechanics.
-        Whether it's grinding ranked or chilling with friends, gaming is my zone.
-      </p>
+    <section class="contact-info">
+      <h2>Reach Me</h2>
+      <p>Email: <a href="mailto:info@nerdherdergaming.com">info@nerdherdergaming.com</a></p>
+      <p>Twitch: twitch.tv/nerdherder690</p>
+      <p>YouTube: youtube.com/@nerd90herder</p>
     </section>
 
-    <section class="games">
-      <h2>Favorite Games</h2>
-      <ul>
-        <li>🎮 FPS & Competitive Shooters</li>
-        <li>🧙 RPGs & Open-World Adventures</li>
-        <li>⚔️ Action & Survival Games</li>
-        <li>🕹️ Indie & Retro Classics</li>
-      </ul>
-    </section>
-
-    <section class="links">
-      <h2>Find Me Online</h2>
+    <section class="contact-links">
+      <h2>Socials</h2>
       <a href="https://www.twitch.tv/nerdherder690">Twitch</a>
       <a href="https://www.youtube.com/@nerd90herder">YouTube</a>
       <a href="https://discord.com/channels/452967091394445313/1040794225299685446">Discord</a>
